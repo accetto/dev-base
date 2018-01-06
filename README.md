@@ -20,5 +20,5 @@ For images with additional features you can also check the following repositorie
 
 * [`accetto/dev-base-ubuntu`](https://hub.docker.com/r/accetto/dev-base-ubuntu/)
 
-    * `latest` based on `ubuntu:latest` ([`Dockerfile`](https://github.com/accetto/dev-base-ubuntu/blob/master/Dockerfile-ubuntu))
-    * `rolling` based on `ubuntu:rolling` ([`Dockerfile`](https://github.com/accetto/dev-base-ubuntu/blob/master/Dockerfile_rolling))
+    * `latest` based on `ubuntu:latest` ([`Dockerfile`](https://github.com/accetto/dev-base/blob/master/Dockerfile-ubuntu))
+    * `rolling` based on `ubuntu:rolling` ([`Dockerfile`](https://github.com/accetto/dev-base/blob/master/Dockerfile-ubuntu_rolling))
