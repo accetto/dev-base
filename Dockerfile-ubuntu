@@ -1,0 +1,16 @@
+# docker build -f Dockerfile-ubuntu -t accetto/dev-base-ubuntu .
+
+FROM ubuntu
+
+MAINTAINER accetto
+ENV REFRESHED_AT 2018-01-06
+
+LABEL vendor="accetto" \
+    any.accetto.description="Ubuntu base" \
+    any.accetto.display-name="Ubuntu base for developement" \
+    any.accetto.expose-services="none" \
+    any.accetto.tags="ubuntu, base, development"
+
+RUN apt-get update
+
+CMD ["/bin/bash"]
