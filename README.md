@@ -22,3 +22,7 @@ For images with additional features you can also check the following repositorie
 
     * `latest` based on `ubuntu:latest` ([`Dockerfile`](https://github.com/accetto/dev-base/blob/master/Dockerfile-ubuntu))
     * `rolling` based on `ubuntu:rolling` ([`Dockerfile`](https://github.com/accetto/dev-base/blob/master/Dockerfile-ubuntu_rolling))
+    
+    [![](https://images.microbadger.com/badges/version/accetto/dev-base-ubuntu.svg)](https://microbadger.com/images/accetto/dev-base-ubuntu "Get your own version badge on microbadger.com") [![](https://images.microbadger.com/badges/image/accetto/dev-base-ubuntu.svg)](https://microbadger.com/images/accetto/dev-base-ubuntu "Get your own image badge on microbadger.com") [![](https://images.microbadger.com/badges/version/accetto/dev-base-ubuntu:rolling.svg)](https://microbadger.com/images/accetto/dev-base-ubuntu:rolling "Get your own version badge on microbadger.com") [![](https://images.microbadger.com/badges/image/accetto/dev-base-ubuntu:rolling.svg)](https://microbadger.com/images/accetto/dev-base-ubuntu:rolling "Get your own image badge on microbadger.com")
+
+
