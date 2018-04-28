@@ -1,28 +1,33 @@
-# Docker base images for development
+# Docker test repository
 
-The repository contains resources for building Docker base images for development and testing.
+This repository is just for testing and it is not intended to be actually used.
 
-The images are based on the official Docker images and have no additional components installed.
+Real images with useful features can be found in my [Docker Hub][accetto-docker] repository:
 
-For images with additional features you can also check the following repositories:
-
-* [`accetto/ubuntu-vnc-xfce`](https://hub.docker.com/r/accetto/ubuntu-vnc-xfce/)
-* [`accetto/ubuntu-vnc-xfce-firefox`](https://hub.docker.com/r/accetto/ubuntu-vnc-xfce-firefox/).
+* [`accetto/ubuntu-vnc-xfce`][acceto-docker-vnc-base]
+* [`accetto/ubuntu-vnc-xfce-firefox`][accetto-docker-vnc-firefox]
 
 ### Image set
 
-* [`accetto/dev-base-ubuntu`](https://hub.docker.com/r/accetto/dev-base-ubuntu/)
+* [`accetto/dev-base-ubuntu`][accetto-docker-dev-base-ubuntu]
 
-    This is the image based on the official [`ubuntu`](https://hub.docker.com/_/ubuntu/) image.
+    Image based on the official [`ubuntu`][docker-ubuntu] image.
 
 
-### Supported tags and respective `Dockerfile` links
+### Supported tags and respective Dockerfile links
 
-* [`accetto/dev-base-ubuntu`](https://hub.docker.com/r/accetto/dev-base-ubuntu/)
+* [`accetto/dev-base-ubuntu`][accetto-docker-dev-base-ubuntu]
 
-    * `latest` based on `ubuntu:latest` ([`Dockerfile`](https://github.com/accetto/dev-base/blob/master/Dockerfile-ubuntu))
-    * `rolling` based on `ubuntu:rolling` ([`Dockerfile`](https://github.com/accetto/dev-base/blob/master/Dockerfile-ubuntu_rolling))
+    * `latest` based on `ubuntu:latest` ([`Dockerfile`][accetto-dockerfile-dev-base-ubuntu])
+    * `rolling` based on `ubuntu:rolling` ([`Dockerfile`][accetto-dockerfile-dev-base-ubuntu_rolling])
     
     [![](https://images.microbadger.com/badges/version/accetto/dev-base-ubuntu.svg)](https://microbadger.com/images/accetto/dev-base-ubuntu "Get your own version badge on microbadger.com") [![](https://images.microbadger.com/badges/image/accetto/dev-base-ubuntu.svg)](https://microbadger.com/images/accetto/dev-base-ubuntu "Get your own image badge on microbadger.com") [![](https://images.microbadger.com/badges/version/accetto/dev-base-ubuntu:rolling.svg)](https://microbadger.com/images/accetto/dev-base-ubuntu:rolling "Get your own version badge on microbadger.com") [![](https://images.microbadger.com/badges/image/accetto/dev-base-ubuntu:rolling.svg)](https://microbadger.com/images/accetto/dev-base-ubuntu:rolling "Get your own image badge on microbadger.com")
 
+[accetto-docker]: https://hub.docker.com/u/accetto/
+[acceto-docker-vnc-base]: https://hub.docker.com/r/accetto/ubuntu-vnc-xfce/
+[accetto-docker-vnc-firefox]: https://hub.docker.com/r/accetto/ubuntu-vnc-xfce-firefox/
+[accetto-docker-dev-base-ubuntu]: https://hub.docker.com/r/accetto/dev-base-ubuntu/
+[accetto-dockerfile-dev-base-ubuntu]: https://github.com/accetto/dev-base/blob/master/Dockerfile-ubuntu
+[accetto-dockerfile-dev-base-ubuntu_rolling]: https://github.com/accetto/dev-base/blob/master/Dockerfile-ubuntu_rolling
 
+[docker-ubuntu]: https://hub.docker.com/_/ubuntu/
