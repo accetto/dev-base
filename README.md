@@ -4,22 +4,22 @@ This repository is just for testing and it is not intended to be actually used o
 
 Real images with useful features can be found in my [Docker Hub][accetto-docker] repository:
 
-* [`accetto/ubuntu-vnc-xfce`][acceto-docker-vnc-base]
-* [`accetto/ubuntu-vnc-xfce-firefox`][accetto-docker-vnc-firefox]
+* [accetto/ubuntu-vnc-xfce][acceto-docker-vnc-base]
+* [accetto/ubuntu-vnc-xfce-firefox][accetto-docker-vnc-firefox]
 
 ### Image set
 
-* [`accetto/dev-base-ubuntu`][accetto-docker-dev-base-ubuntu]
+* [accetto/dev-base-ubuntu][accetto-docker-dev-base-ubuntu]
 
-    Image based on the official [`ubuntu`][docker-ubuntu] image.
+    Image based on the official [ubuntu][docker-ubuntu] image.
 
 
 ### Supported tags and respective Dockerfile links
 
-* [`accetto/dev-base-ubuntu`][accetto-docker-dev-base-ubuntu]
+* [accetto/dev-base-ubuntu][accetto-docker-dev-base-ubuntu]
 
-    * `latest` based on `ubuntu:latest` ([`Dockerfile`][accetto-dockerfile-dev-base-ubuntu])
-    * `rolling` based on `ubuntu:rolling` ([`Dockerfile`][accetto-dockerfile-dev-base-ubuntu_rolling])
+    * `latest` based on `ubuntu:latest` ([Dockerfile][accetto-dockerfile-dev-base-ubuntu])
+    * `rolling` based on `ubuntu:rolling` ([Dockerfile][accetto-dockerfile-dev-base-ubuntu_rolling])
     
     [![](https://images.microbadger.com/badges/version/accetto/dev-base-ubuntu.svg)](https://microbadger.com/images/accetto/dev-base-ubuntu "Get your own version badge on microbadger.com") [![](https://images.microbadger.com/badges/image/accetto/dev-base-ubuntu.svg)](https://microbadger.com/images/accetto/dev-base-ubuntu "Get your own image badge on microbadger.com") [![](https://images.microbadger.com/badges/version/accetto/dev-base-ubuntu:rolling.svg)](https://microbadger.com/images/accetto/dev-base-ubuntu:rolling "Get your own version badge on microbadger.com") [![](https://images.microbadger.com/badges/image/accetto/dev-base-ubuntu:rolling.svg)](https://microbadger.com/images/accetto/dev-base-ubuntu:rolling "Get your own image badge on microbadger.com")
 
