@@ -1,6 +1,6 @@
 # Docker test repository
 
-This repository is just for testing and it is not intended to be actually used.
+This repository is just for testing and it is not intended to be actually used otherwise.
 
 Real images with useful features can be found in my [Docker Hub][accetto-docker] repository:
 
