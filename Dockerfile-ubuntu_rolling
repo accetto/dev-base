@@ -2,12 +2,12 @@
 
 FROM ubuntu:rolling
 
-ENV REFRESHED_AT 2018-04-07
+ENV REFRESHED_AT 2018-04-28
 
 LABEL vendor="accetto" \
     maintainer="https://github.com/accetto" \
     any.accetto.description="Ubuntu base" \
-    any.accetto.display-name="Ubuntu base for developement" \
+    any.accetto.display-name="Ubuntu base for development" \
     any.accetto.expose-services="none" \
     any.accetto.tags="ubuntu, base, development"
 
