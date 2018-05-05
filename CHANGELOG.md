@@ -1,4 +1,12 @@
-## Changelog of `accetto/dev-base` repository
+# CHANGELOG
+
+## accetto/dev-base
+
+### Version 1.0.2
+
+(May 2018)
+
+- `FROM` instruction with build `ARG`
 
 ### Version 1.0.1
 
