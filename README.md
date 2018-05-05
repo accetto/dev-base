@@ -2,10 +2,7 @@
 
 This repository is just for testing and it is not intended to be actually used otherwise.
 
-Real images with useful features can be found in my [Docker Hub][accetto-docker] repository:
-
-* [accetto/ubuntu-vnc-xfce][acceto-docker-vnc-base]
-* [accetto/ubuntu-vnc-xfce-firefox][accetto-docker-vnc-firefox]
+Real images with useful features can be found in my Docker Hub [repository][accetto-docker].
 
 ### Image set
 
