@@ -1,8 +1,10 @@
 # docker build -f Dockerfile-ubuntu -t accetto/dev-base-ubuntu .
+# docker build -f Dockerfile-ubuntu --build-arg BASETAG=rolling -t accetto/dev-base-ubuntu:rolling .
 
-FROM ubuntu
+ARG BASETAG=latest
+FROM ubuntu:${BASETAG}
 
-ENV REFRESHED_AT 2018-04-28
+ENV REFRESHED_AT 2018-05-05
 
 LABEL vendor="accetto" \
     maintainer="https://github.com/accetto" \
