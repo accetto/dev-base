@@ -2,6 +2,13 @@
 
 ## accetto/dev-base
 
+### Version 1.1.0
+
+(May 2018)
+
+- Base-specific folders added (Ubuntu, Alpine)
+- Alpine base added
+
 ### Version 1.0.2
 
 (May 2018)
