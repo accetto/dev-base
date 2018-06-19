@@ -5,17 +5,11 @@ ARG BASETAG=edge
 
 FROM alpine:${BASETAG}
 
-ENV REFRESHED_AT 2018-05-10
+ENV REFRESHED_AT 2018-06-19
 
-LABEL vendor="accetto" \
+LABEL \
     maintainer="https://github.com/accetto" \
-    any.accetto.description="Alpine base" \
-    any.accetto.display-name="Alpine base for development" \
-    any.accetto.expose-services="none" \
-    any.accetto.tags="alpine, base, development"
+    vendor="accetto"
 
-WORKDIR /install
-COPY ./src/ .
-RUN sh ./tools.sh
-
-CMD ["/bin/sh"]
+### supports testing, should be overriden
+ENTRYPOINT ["tail", "-f", "/dev/null"]

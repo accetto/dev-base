@@ -5,17 +5,11 @@ ARG BASETAG=latest
 
 FROM ubuntu:${BASETAG}
 
-ENV REFRESHED_AT 2018-05-10
+ENV REFRESHED_AT 2018-06-19
 
-LABEL vendor="accetto" \
+LABEL \
     maintainer="https://github.com/accetto" \
-    any.accetto.description="Ubuntu base" \
-    any.accetto.display-name="Ubuntu base for development" \
-    any.accetto.expose-services="none" \
-    any.accetto.tags="ubuntu, base, development"
+    vendor="accetto"
 
-WORKDIR /install
-COPY ./src/tools.sh .
-RUN sh ./tools.sh
-
-CMD ["/bin/bash"]
+### supports testing, should be overriden
+ENTRYPOINT ["tail", "-f", "/dev/null"]

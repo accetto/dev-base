@@ -2,6 +2,10 @@
 
 ## accetto/dev-base
 
+### Version 18.06
+
+- Just bare-bone base images that keep running
+
 ### Version 1.1.0
 
 (May 2018)
