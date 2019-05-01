@@ -2,6 +2,14 @@
 
 ## accetto/dev-base
 
+[Git Hub][this-github] - [Docker Hub (alpine)][this-docker-alpine] - [Docker Hub (ubuntu)][this-docker-ubuntu]
+
+***
+
+### Version 19.05
+
+- **README** files updated
+
 ### Version 18.06
 
 - Just bare-bone base images that keep running
@@ -30,3 +38,9 @@
 (January 2018)
 
 - Initial version
+
+[this-github]: https://github.com/accetto/dev-base
+[this-changelog]: https://github.com/accetto/dev-base/blob/master/CHANGELOG.md
+
+[this-docker-alpine]: https://hub.docker.com/r/accetto/dev-base-alpine
+[this-docker-ubuntu]: https://hub.docker.com/r/accetto/dev-base-ubuntu

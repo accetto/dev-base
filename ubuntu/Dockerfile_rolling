@@ -5,7 +5,7 @@ ARG BASETAG=rolling
 
 FROM ubuntu:${BASETAG}
 
-ENV REFRESHED_AT 2018-06-19
+ENV REFRESHED_AT 2019-05-01
 
 LABEL \
     maintainer="https://github.com/accetto" \
