@@ -1,0 +1,38 @@
+### hooks/env
+
+### Docker Hub
+### Environment variables for building and testing
+### (from 'Advanced options for Autobuild and Autotest', https://docs.docker.com/docker-hub/builds/advanced/)
+### SOURCE_BRANCH: the name of the branch or the tag that is currently being tested.
+### SOURCE_COMMIT: the SHA1 hash of the commit being tested.
+### COMMIT_MSG: the message from the commit being tested and built.
+### DOCKER_REPO: the name of the Docker repository being built.
+### DOCKERFILE_PATH: the dockerfile currently being built.
+### DOCKER_TAG: the Docker repository tag being built.
+### IMAGE_NAME: the name and tag of the Docker repository being built. (This variable is a combination of DOCKER_REPO:DOCKER_TAG.)
+
+### These variables are only for reporting during development
+BUILD_ENV_SOURCE_BRANCH="$SOURCE_BRANCH"
+BUILD_ENV_SOURCE_COMMIT="$SOURCE_COMMIT"
+BUILD_ENV_COMMIT_MSG="$COMMIT_MSG"
+BUILD_ENV_DOCKER_REPO="$DOCKER_REPO"
+BUILD_ENV_DOCKERFILE_PATH="$DOCKERFILE_PATH"
+BUILD_ENV_DOCKER_TAG="$DOCKER_TAG"
+BUILD_ENV_IMAGE_NAME="$IMAGE_NAME"
+
+TODAY=$(date +%Y-%m-%d)
+BASETAG=""
+
+case "${DOCKER_TAG}" in
+
+    dev | latest)
+        BASETAG="latest"
+        ;;
+
+    dev-edge | edge)
+        BASETAG="edge"
+        ;;
+    *)
+        BASETAG=""
+        ;;
+esac

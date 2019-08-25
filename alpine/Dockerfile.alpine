@@ -1,0 +1,24 @@
+# docker build -f Dockerfile.alpine -t accetto/dev-base-alpine .
+# docker build -f Dockerfile.alpine -t accetto/dev-base-alpine:dev .
+# docker build -f Dockerfile.alpine --build-arg BASETAG=edge -t accetto/dev-base-alpine:edge .
+# docker build -f Dockerfile.alpine -t accetto/dev-base-alpine:dfw .
+# docker build -f Dockerfile.alpine --build-arg BASETAG=edge -t accetto/dev-base-alpine:dfw-edge .
+
+ARG BASETAG=latest
+
+FROM alpine:${BASETAG}
+
+ARG ARG_REFRESHED_AT
+
+LABEL \
+    maintainer="https://github.com/accetto" \
+    vendor="accetto"
+
+ENV \
+    REFRESHED_AT=${ARG_REFRESHED_AT}
+
+COPY [ "./src", "/root/" ]
+RUN find /root/ -name '*.sh' -exec chmod -v +x {} + 
+
+### supports testing, should be overriden
+# ENTRYPOINT ["tail", "-f", "/dev/null"]

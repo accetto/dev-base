@@ -6,6 +6,13 @@
 
 ***
 
+### Version 19.08
+
+- **dev-base-alpine**
+  - build hooks introduced
+    - **Dockerfile** renamed to **Dockerfile.alpine**
+    - **Dockerfile_edge** removed
+
 ### Version 19.05
 
 - **README** files updated
