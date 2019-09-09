@@ -6,6 +6,11 @@
 
 ***
 
+### Version 19.10
+
+- **dev-base-alpine**
+  - scripts **version_sticker.sh** and **version_of.sh** introduced
+
 ### Version 19.08
 
 - **dev-base-alpine**

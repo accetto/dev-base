@@ -1,24 +1,28 @@
-# docker build -f Dockerfile.alpine -t accetto/dev-base-alpine .
-# docker build -f Dockerfile.alpine -t accetto/dev-base-alpine:dev .
-# docker build -f Dockerfile.alpine --build-arg BASETAG=edge -t accetto/dev-base-alpine:edge .
-# docker build -f Dockerfile.alpine -t accetto/dev-base-alpine:dfw .
-# docker build -f Dockerfile.alpine --build-arg BASETAG=edge -t accetto/dev-base-alpine:dfw-edge .
+# ./hooks/build dev
+# ./hooks/build dfw
 
 ARG BASETAG=latest
 
 FROM alpine:${BASETAG}
 
 ARG ARG_REFRESHED_AT
+ARG ARG_VERSION_STICKER
+ARG ARG_VCS_REF
 
 LABEL \
     maintainer="https://github.com/accetto" \
-    vendor="accetto"
+    vendor="accetto" \
+    org.label-schema.vcs-ref="$ARG_VCS_REF" \
+    org.label-schema.vcs-url="https://github.com/accetto/dev-base"
 
 ENV \
-    REFRESHED_AT=${ARG_REFRESHED_AT}
+    STARTUPDIR=/dockerstartup \
+    REFRESHED_AT=${ARG_REFRESHED_AT} \
+    VERSION_STICKER=${ARG_VERSION_STICKER}
 
-COPY [ "./src", "/root/" ]
-RUN find /root/ -name '*.sh' -exec chmod -v +x {} + 
+COPY [ "./src/startup", "${STARTUPDIR}/" ]
+
+RUN find "${STARTUPDIR}" -name '*.sh' -exec chmod -v +x {} + 
 
 ### supports testing, should be overriden
 # ENTRYPOINT ["tail", "-f", "/dev/null"]
