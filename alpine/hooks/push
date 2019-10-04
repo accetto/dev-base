@@ -12,7 +12,7 @@ if [[ -n "$BASETAG" ]] ; then
             docker push $DOCKER_REPO:$VERSION_STICKER
             ;;
         edge)
-            docker tag $IMAGE_NAME $DOCKER_REPO:lab-$VERSION_STICKER
+            docker tag $IMAGE_NAME $DOCKER_REPO:edge-$VERSION_STICKER
             docker push $DOCKER_REPO:edge-$VERSION_STICKER
             ;;
     esac
