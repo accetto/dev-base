@@ -1,0 +1,15 @@
+<metadata>
+    <dev-base-alpine>
+        <badge>
+            <latest>
+                <version-sticker>alpine3.10.2</version-sticker>
+            </latest>
+            <edge>
+                <version-sticker>alpine3.11_alpha20190925</version-sticker>
+            </edge>
+            <dev>
+                <version-sticker>alpine3.10.2</version-sticker>
+            </dev>
+        </badge>
+    </dev-base-alpine>
+</metadata>
