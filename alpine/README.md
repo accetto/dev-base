@@ -21,6 +21,8 @@ Real images with useful features can be found in my Docker Hub [accetto][accetto
 
   [![version badge](https://images.microbadger.com/badges/version/accetto/dev-base-alpine.svg)](https://microbadger.com/images/accetto/dev-base-alpine "Get your own version badge on microbadger.com") [![size badge](https://images.microbadger.com/badges/image/accetto/dev-base-alpine.svg)](https://microbadger.com/images/accetto/dev-base-alpine "Get your own image badge on microbadger.com") [![version badge](https://images.microbadger.com/badges/version/accetto/dev-base-alpine:edge.svg)](https://microbadger.com/images/accetto/dev-base-alpine:edge "Get your own version badge on microbadger.com") [![size badge](https://images.microbadger.com/badges/image/accetto/dev-base-alpine:edge.svg)](https://microbadger.com/images/accetto/dev-base-alpine:edge "Get your own image badge on microbadger.com")
 
+  ![version sticker](images/dev-version-sticker.svg)
+
 [this-docker]: https://hub.docker.com/r/accetto/dev-base-alpine
 [this-github]: https://github.com/accetto/dev-base
 [this-changelog]: https://github.com/accetto/dev-base/blob/master/CHANGELOG.md
