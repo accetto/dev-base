@@ -8,15 +8,17 @@ DOCKER_REPO=${DOCKER_REPO:-accetto/dev-base-alpine}
 TODAY=$(date +%Y-%m-%d)
 BASETAG=""
 VERSION_STICKER="alpine3.10.2"
+VERSION_STICKER_EDGE="alpine3.11_alpha20190925"
 
 case "${DOCKER_TAG}" in
 
-    latest | dev | dfw)
+    latest | dev | dfw | nux)
         BASETAG="latest"
         ;;
 
-    edge | dev-edge | dfw-edge)
+    edge | dev-edge | dfw-edge | nux-edge)
         BASETAG="edge"
+        VERSION_STICKER="$VERSION_STICKER_EDGE"
         ;;
     *)
         BASETAG=""
