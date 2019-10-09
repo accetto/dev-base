@@ -1,0 +1,31 @@
+### hooks/env
+
+SOURCE_BRANCH=${SOURCE_BRANCH:-$1}
+DOCKER_TAG=${DOCKER_TAG:-$1}
+DOCKERFILE_PATH=${DOCKERFILE_PATH:-./Dockerfile.ubuntu}
+DOCKER_REPO=${DOCKER_REPO:-accetto/dev-base-ubuntu}
+
+BASETAG=""
+VERSION_STICKER=""
+
+TODAY=$(date +%Y-%m-%d)
+VCS_REF=`git rev-parse --short HEAD`
+
+VERSION_STICKER_LATEST="ubuntu18.04.3"
+VERSION_STICKER_ROLLING="ubuntu19.04"
+
+case "${DOCKER_TAG}" in
+
+    latest | dev | dfw | nux)
+        VERSION_STICKER="${VERSION_STICKER_LATEST}"
+        BASETAG="latest"
+        ;;
+
+    rolling | dev-rolling | dfw-rolling | nux-rolling)
+        BASETAG="rolling"
+        VERSION_STICKER="${VERSION_STICKER_ROLLING}"
+        ;;
+    *)
+        BASETAG=""
+        ;;
+esac

@@ -17,9 +17,14 @@ Real images with useful features can be found in my Docker Hub [accetto][accetto
   Images based on the official [ubuntu][docker-ubuntu] images.
 
   - `latest` based on `ubuntu:latest`
+
+    ![badge-VERSION_STICKER_LATEST][badge-VERSION_STICKER_LATEST] [![badge-commit](https://images.microbadger.com/badges/commit/accetto/dev-base-ubuntu:latest.svg)](https://microbadger.com/images/accetto/dev-base-ubuntu:latest "Get your own commit badge on microbadger.com")
+
   - `rolling` based on `ubuntu:rolling`
 
-  [![version badge](https://images.microbadger.com/badges/version/accetto/dev-base-ubuntu.svg)](https://microbadger.com/images/accetto/dev-base-ubuntu "Get your own version badge on microbadger.com") [![size badge](https://images.microbadger.com/badges/image/accetto/dev-base-ubuntu.svg)](https://microbadger.com/images/accetto/dev-base-ubuntu "Get your own image badge on microbadger.com") [![version badge](https://images.microbadger.com/badges/version/accetto/dev-base-ubuntu:rolling.svg)](https://microbadger.com/images/accetto/dev-base-ubuntu:rolling "Get your own version badge on microbadger.com") [![size badge](https://images.microbadger.com/badges/image/accetto/dev-base-ubuntu:rolling.svg)](https://microbadger.com/images/accetto/dev-base-ubuntu:rolling "Get your own image badge on microbadger.com")
+    ![badge-VERSION_STICKER_ROLLING][badge-VERSION_STICKER_ROLLING] [![badge-commit](https://images.microbadger.com/badges/commit/accetto/dev-base-ubuntu:rolling.svg)](https://microbadger.com/images/accetto/dev-base-ubuntu:rolling "Get your own commit badge on microbadger.com")
+
+***
 
 [this-docker]: https://hub.docker.com/r/accetto/dev-base-ubuntu
 [this-github]: https://github.com/accetto/dev-base
@@ -27,3 +32,7 @@ Real images with useful features can be found in my Docker Hub [accetto][accetto
 
 [accetto-docker]: https://hub.docker.com/u/accetto/
 [docker-ubuntu]: https://hub.docker.com/_/ubuntu/
+
+[badge-VERSION_STICKER_LATEST]: https://img.shields.io/static/v1?label=latest&message=ubuntu18.04.3&color=blue&style=flat-square
+
+[badge-VERSION_STICKER_ROLLING]: https://img.shields.io/static/v1?label=rolling&message=TODO&color=blue&style=flat-square

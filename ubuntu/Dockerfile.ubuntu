@@ -1,17 +1,32 @@
-# docker build -f Dockerfile -t accetto/dev-base-ubuntu .
-# docker build -f Dockerfile -t accetto/dev-base-ubuntu:dev .
-# docker build -f Dockerfile --build-arg BASETAG=dev -t accetto/dev-base-ubuntu:dev .
-# docker build -f Dockerfile --build-arg BASETAG=rolling -t accetto/dev-base-ubuntu:rolling .
+# ./hooks/build latest
+# ./hooks/build rolling
+# ./hooks/build dev
+# ./hooks/build dfw
+# ./hooks/build nux
+# ./hooks/build nux-rolling
 
 ARG BASETAG=latest
 
 FROM ubuntu:${BASETAG}
 
-ENV REFRESHED_AT 2019-05-01
+ARG ARG_REFRESHED_AT
+ARG ARG_VERSION_STICKER
+ARG ARG_VCS_REF
 
 LABEL \
     maintainer="https://github.com/accetto" \
-    vendor="accetto"
+    vendor="accetto" \
+    version-sticker="${ARG_VERSION_STICKER:-none}" \
+    org.label-schema.vcs-ref="${ARG_VCS_REF}" \
+    org.label-schema.vcs-url="https://github.com/accetto/dev-base"
+
+ENV \
+    STARTUPDIR=/dockerstartup \
+    REFRESHED_AT=${ARG_REFRESHED_AT} \
+    VERSION_STICKER=${ARG_VERSION_STICKER}
+
+COPY [ "./src/startup", "${STARTUPDIR}/" ]
+RUN find "${STARTUPDIR}" -name '*.sh' -exec chmod -v +x {} +     
 
 ### supports testing, should be overriden
-ENTRYPOINT ["tail", "-f", "/dev/null"]
+# ENTRYPOINT ["tail", "-f", "/dev/null"]

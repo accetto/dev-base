@@ -5,20 +5,26 @@ DOCKER_TAG=${DOCKER_TAG:-$1}
 DOCKERFILE_PATH=${DOCKERFILE_PATH:-./Dockerfile.alpine}
 DOCKER_REPO=${DOCKER_REPO:-accetto/dev-base-alpine}
 
-TODAY=$(date +%Y-%m-%d)
 BASETAG=""
-VERSION_STICKER="alpine3.10.2"
+VERSION_STICKER=""
+
+TODAY=$(date +%Y-%m-%d)
+VCS_REF=`git rev-parse --short HEAD`
+
+VERSION_STICKER_LATEST="alpine3.10.2"
 VERSION_STICKER_EDGE="alpine3.11_alpha20190925"
+VERSION_STICKER_TEST="ubuntu18.04.3-node10.16.3-npm6.9.0-code1.38.1-tsc3.6.3-heroku7.33.1-psql10.10-chromium77.0.3865.90"
 
 case "${DOCKER_TAG}" in
 
     latest | dev | dfw | nux)
+        VERSION_STICKER="${VERSION_STICKER_LATEST}"
         BASETAG="latest"
         ;;
 
     edge | dev-edge | dfw-edge | nux-edge)
         BASETAG="edge"
-        VERSION_STICKER="$VERSION_STICKER_EDGE"
+        VERSION_STICKER="${VERSION_STICKER_EDGE}"
         ;;
     *)
         BASETAG=""

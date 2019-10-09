@@ -8,8 +8,10 @@
 
 ### Version 19.10
 
-- **dev-base-alpine**
-  - scripts **version_sticker.sh** and **version_of.sh** introduced
+- previous badges (from `microbadger.com`) replaced by version stickers (as static badges from `shields.io`)
+- commit badge introduced (from m`icrobadger.com`)
+- script **util-refresh-readme.sh** introduced
+- build hooks updated
 
 ### Version 19.08
 

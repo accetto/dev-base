@@ -1,7 +1,7 @@
-# ./hooks/build dev
-# ./hooks/build dfw
 # ./hooks/build latest
 # ./hooks/build edge
+# ./hooks/build dev
+# ./hooks/build dfw
 # ./hooks/build nux
 # ./hooks/build nux-edge
 
@@ -16,7 +16,8 @@ ARG ARG_VCS_REF
 LABEL \
     maintainer="https://github.com/accetto" \
     vendor="accetto" \
-    org.label-schema.vcs-ref="$ARG_VCS_REF" \
+    version-sticker="${ARG_VERSION_STICKER}" \
+    org.label-schema.vcs-ref="${ARG_VCS_REF}" \
     org.label-schema.vcs-url="https://github.com/accetto/dev-base"
 
 ENV \
@@ -25,7 +26,6 @@ ENV \
     VERSION_STICKER=${ARG_VERSION_STICKER}
 
 COPY [ "./src/startup", "${STARTUPDIR}/" ]
-
 RUN find "${STARTUPDIR}" -name '*.sh' -exec chmod -v +x {} + 
 
 ### supports testing, should be overriden
