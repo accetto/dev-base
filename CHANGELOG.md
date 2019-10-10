@@ -8,8 +8,8 @@
 
 ### Version 19.10
 
-- previous badges (`microbadger.com`) replaced by version sticker ones (`shields.io`)
-- commit badge introduced (`microbadger.com`)
+- badges from `microbadger.com` removed
+- badges from `badgen.net` introduced
 - script **util-refresh-readme.sh** introduced
 - build hooks updated
 
