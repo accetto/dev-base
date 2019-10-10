@@ -9,7 +9,6 @@ BASETAG=""
 VERSION_STICKER=""
 
 TODAY=$(date +%Y-%m-%d)
-VCS_REF=`git rev-parse --short HEAD`
 
 VERSION_STICKER_LATEST="alpine3.10.2"
 VERSION_STICKER_EDGE="alpine3.11_alpha20190925"

@@ -9,7 +9,6 @@ if [[ -n "${BASETAG}" ]] ; then
             --build-arg BASETAG="${BASETAG}" \
             --build-arg ARG_REFRESHED_AT="${TODAY}" \
             --build-arg ARG_VERSION_STICKER="${VERSION_STICKER}" \
-            --build-arg ARG_VCS_REF=${VCS_REF} \
         -t ${DOCKER_REPO}:${DOCKER_TAG} .
 
 else

@@ -46,27 +46,27 @@ Real images with useful features can be found in my Docker Hub [accetto][accetto
 
 <!-- badges:docker -->
 
-[badge-docker-pulls]: https://badgen.net/docker/pulls/accetto/dev-base-ubuntu?icon=docker&label=pulls
+[badge-docker-pulls]: https://badgen.net/docker/pulls/accetto/dev-base-ubuntu?icon=docker&label=pulls (https://hub.docker.com/r/accetto/dev-base-ubuntu)
 
-[badge-docker-stars]: https://badgen.net/docker/stars/accetto/dev-base-ubuntu?icon=docker&label=stars
+[badge-docker-stars]: https://badgen.net/docker/stars/accetto/dev-base-ubuntu?icon=docker&label=stars (https://hub.docker.com/r/accetto/dev-base-ubuntu)
 
 <!-- badges:github -->
 
-[badge-github-release]: https://badgen.net/github/release/accetto/dev-base?icon=github&label=release
+[badge-github-release]: https://badgen.net/github/release/accetto/dev-base?icon=github&label=release (https://github.com/accetto/dev-base/releases)
 
-[badge-github-stars]: https://badgen.net/github/stars/accetto/dev-base?icon=github&label=stars
+[badge-github-stars]: https://badgen.net/github/stars/accetto/dev-base?icon=github&label=stars (https://github.com/accetto/dev-base)
 
-[badge-github-forks]: https://badgen.net/github/forks/accetto/dev-base?icon=github&label=forks
+[badge-github-forks]: https://badgen.net/github/forks/accetto/dev-base?icon=github&label=forks (https://github.com/accetto/dev-base)
 
-[badge-github-releases]: https://badgen.net/github/releases/accetto/dev-base?icon=github&label=releases
+[badge-github-releases]: https://badgen.net/github/releases/accetto/dev-base?icon=github&label=releases (https://github.com/accetto/dev-base/releases)
 
-[badge-github-commits]: https://badgen.net/github/commits/accetto/dev-base?icon=github&label=commits
+[badge-github-commits]: https://badgen.net/github/commits/accetto/dev-base?icon=github&label=commits (https://github.com/accetto/dev-base)
 
-[badge-github-last-commit]: https://badgen.net/github/last-commit/accetto/dev-base?icon=github&label=last%20commit
+[badge-github-last-commit]: https://badgen.net/github/last-commit/accetto/dev-base?icon=github&label=last%20commit (https://github.com/accetto/dev-base)
 
-[badge-github-closed-issues]: https://badgen.net/github/closed-issues/accetto/dev-base?icon=github&label=closed%20issues
+[badge-github-closed-issues]: https://badgen.net/github/closed-issues/accetto/dev-base?icon=github&label=closed%20issues (https://github.com/accetto/dev-base/issues)
 
-[badge-github-open-issues]: https://badgen.net/github/open-issues/accetto/dev-base?icon=github&label=open%20issues
+[badge-github-open-issues]: https://badgen.net/github/open-issues/accetto/dev-base?icon=github&label=open%20issues (https://github.com/accetto/dev-base/issues)
 
 <!-- badges:latest -->
 
