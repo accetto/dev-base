@@ -70,12 +70,12 @@ Real images with useful features can be found in my Docker Hub [accetto][accetto
 
 <!-- badges:latest -->
 
-TODO[badge-VERSION_STICKER_LATEST]: https://badgen.net/badge/version%20sticker/ubuntu18.04.3/blue
+[badge-VERSION_STICKER_LATEST]: https://badgen.net/badge/version%20sticker/ubuntu18.04.3/blue
 
 <!-- [badge-VERSION_STICKER_LATEST]: https://img.shields.io/static/v1?label=latest&message=ubuntu18.04.3&color=blue&style=flat-square -->
 
 <!-- badges:rolling -->
 
-TODO[badge-VERSION_STICKER_ROLLING]: https://badgen.net/badge/version%20sticker/ubuntu19.04/blue
+[badge-VERSION_STICKER_ROLLING]: https://badgen.net/badge/version%20sticker/ubuntu19.04/blue
 
 <!-- [badge-VERSION_STICKER_ROLLING]: https://img.shields.io/static/v1?label=rolling&message=ubuntu19.04&color=blue&style=flat-square -->
