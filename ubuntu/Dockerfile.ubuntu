@@ -11,13 +11,12 @@ FROM ubuntu:${BASETAG}
 
 ARG ARG_REFRESHED_AT
 ARG ARG_VERSION_STICKER
-ARG ARG_VCS_REF
 
 LABEL \
     maintainer="https://github.com/accetto" \
     vendor="accetto" \
     version-sticker="${ARG_VERSION_STICKER:-none}" \
-    org.label-schema.vcs-ref="${ARG_VCS_REF}" \
+    org.label-schema.vcs-ref="`git rev-parse --short HEAD`" \
     org.label-schema.vcs-url="https://github.com/accetto/dev-base"
 
 ENV \

@@ -6,10 +6,8 @@ DOCKERFILE_PATH=${DOCKERFILE_PATH:-./Dockerfile.ubuntu}
 DOCKER_REPO=${DOCKER_REPO:-accetto/dev-base-ubuntu}
 
 BASETAG=""
-VERSION_STICKER=""
-
 TODAY=$(date +%Y-%m-%d)
-VCS_REF=`git rev-parse --short HEAD`
+VERSION_STICKER=""
 
 VERSION_STICKER_LATEST="ubuntu18.04.3"
 VERSION_STICKER_ROLLING="ubuntu19.04"

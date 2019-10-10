@@ -19,7 +19,7 @@ actual=$(docker run ${it} --rm ${DOCKER_REPO}:${DOCKER_TAG} ${startup}/version_s
 expected=${expected%%[[:space:]]}
 actual=${actual%%[[:space:]]}
 
-if [[ -n "$it" ]] ; then
+if [[ -n "${it}" ]] ; then
     [[ "${actual}" == "${expected}" ]] && echo 0 || echo 1
 else
     [[ "${actual}" == "${expected}" ]] && exit 0 || exit 1
