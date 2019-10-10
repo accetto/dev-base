@@ -6,6 +6,17 @@
 
 ***
 
+![badge-docker-pulls][badge-docker-pulls]
+![badge-docker-stars][badge-docker-stars]
+![badge-github-stars][badge-github-stars]
+![badge-github-forks][badge-github-forks]
+![badge-github-release][badge-github-release]
+![badge-github-releases][badge-github-releases]
+![badge-github-commits][badge-github-commits]
+![badge-github-last-commit][badge-github-last-commit]
+![badge-github-closed-issues][badge-github-closed-issues]
+![badge-github-open-issues][badge-github-open-issues]
+
 This repository is just for testing and it is not intended to be actually used otherwise.
 
 Real images with useful features can be found in my Docker Hub [accetto][accetto-docker] repository.
@@ -17,9 +28,14 @@ Real images with useful features can be found in my Docker Hub [accetto][accetto
   Images based on the official [alpine][docker-alpine] images.
 
   - `latest` based on `alpine:latest`
+
+    ![badge-VERSION_STICKER_LATEST][badge-VERSION_STICKER_LATEST]
+
   - `edge` based on `alpine:edge`
 
-  [![version badge](https://images.microbadger.com/badges/version/accetto/dev-base-alpine.svg)](https://microbadger.com/images/accetto/dev-base-alpine "Get your own version badge on microbadger.com") [![size badge](https://images.microbadger.com/badges/image/accetto/dev-base-alpine.svg)](https://microbadger.com/images/accetto/dev-base-alpine "Get your own image badge on microbadger.com") [![version badge](https://images.microbadger.com/badges/version/accetto/dev-base-alpine:edge.svg)](https://microbadger.com/images/accetto/dev-base-alpine:edge "Get your own version badge on microbadger.com") [![size badge](https://images.microbadger.com/badges/image/accetto/dev-base-alpine:edge.svg)](https://microbadger.com/images/accetto/dev-base-alpine:edge "Get your own image badge on microbadger.com")
+    ![badge-VERSION_STICKER_EDGE][badge-VERSION_STICKER_EDGE]
+
+***
 
 [this-docker]: https://hub.docker.com/r/accetto/dev-base-alpine
 [this-github]: https://github.com/accetto/dev-base
@@ -27,3 +43,35 @@ Real images with useful features can be found in my Docker Hub [accetto][accetto
 
 [accetto-docker]: https://hub.docker.com/u/accetto/
 [docker-alpine]: https://hub.docker.com/r/_/alpine/
+
+<!-- badges:docker -->
+
+[badge-docker-pulls]: https://badgen.net/docker/pulls/accetto/dev-base-alpine?icon=docker&label=pulls
+
+[badge-docker-stars]: https://badgen.net/docker/stars/accetto/dev-base-alpine?icon=docker&label=stars
+
+<!-- badges:github -->
+
+[badge-github-release]: https://badgen.net/github/release/accetto/dev-base?icon=github&label=release
+
+[badge-github-stars]: https://badgen.net/github/stars/accetto/dev-base?icon=github&label=stars
+
+[badge-github-forks]: https://badgen.net/github/forks/accetto/dev-base?icon=github&label=forks
+
+[badge-github-releases]: https://badgen.net/github/releases/accetto/dev-base?icon=github&label=releases
+
+[badge-github-commits]: https://badgen.net/github/commits/accetto/dev-base?icon=github&label=commits
+
+[badge-github-last-commit]: https://badgen.net/github/last-commit/accetto/dev-base?icon=github&label=last%20commit
+
+[badge-github-closed-issues]: https://badgen.net/github/closed-issues/accetto/dev-base?icon=github&label=closed%20issues
+
+[badge-github-open-issues]: https://badgen.net/github/open-issues/accetto/dev-base?icon=github&label=open%20issues
+
+<!-- badges:latest -->
+
+[badge-VERSION_STICKER_LATEST]: https://badgen.net/badge/version%20sticker/alpine3.10.2/blue
+
+<!-- badges:edge -->
+
+[badge-VERSION_STICKER_EDGE]: https://badgen.net/badge/version%20sticker/alpine3.11_alpha20190925/blue

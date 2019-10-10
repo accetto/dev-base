@@ -1,5 +1,35 @@
 ### hooks/env
 
+SOURCE_BRANCH=${SOURCE_BRANCH:-$1}
+DOCKER_TAG=${DOCKER_TAG:-$1}
+DOCKERFILE_PATH=${DOCKERFILE_PATH:-./Dockerfile.alpine}
+DOCKER_REPO=${DOCKER_REPO:-accetto/dev-base-alpine}
+
+BASETAG=""
+VERSION_STICKER=""
+
+TODAY=$(date +%Y-%m-%d)
+VCS_REF=`git rev-parse --short HEAD`
+
+VERSION_STICKER_LATEST="alpine3.10.2"
+VERSION_STICKER_EDGE="alpine3.11_alpha20190925"
+
+case "${DOCKER_TAG}" in
+
+    latest | dev | dfw | nux)
+        VERSION_STICKER="${VERSION_STICKER_LATEST}"
+        BASETAG="latest"
+        ;;
+
+    edge | dev-edge | dfw-edge | nux-edge)
+        BASETAG="edge"
+        VERSION_STICKER="${VERSION_STICKER_EDGE}"
+        ;;
+    *)
+        BASETAG=""
+        ;;
+esac
+
 ### Docker Hub
 ### Environment variables for building and testing
 ### (from 'Advanced options for Autobuild and Autotest', https://docs.docker.com/docker-hub/builds/advanced/)
@@ -12,27 +42,10 @@
 ### IMAGE_NAME: the name and tag of the Docker repository being built. (This variable is a combination of DOCKER_REPO:DOCKER_TAG.)
 
 ### These variables are only for reporting during development
-BUILD_ENV_SOURCE_BRANCH="$SOURCE_BRANCH"
-BUILD_ENV_SOURCE_COMMIT="$SOURCE_COMMIT"
-BUILD_ENV_COMMIT_MSG="$COMMIT_MSG"
-BUILD_ENV_DOCKER_REPO="$DOCKER_REPO"
-BUILD_ENV_DOCKERFILE_PATH="$DOCKERFILE_PATH"
-BUILD_ENV_DOCKER_TAG="$DOCKER_TAG"
-BUILD_ENV_IMAGE_NAME="$IMAGE_NAME"
-
-TODAY=$(date +%Y-%m-%d)
-BASETAG=""
-
-case "${DOCKER_TAG}" in
-
-    dev | latest)
-        BASETAG="latest"
-        ;;
-
-    dev-edge | edge)
-        BASETAG="edge"
-        ;;
-    *)
-        BASETAG=""
-        ;;
-esac
+# BUILD_ENV_SOURCE_BRANCH="$SOURCE_BRANCH"
+# BUILD_ENV_SOURCE_COMMIT="$SOURCE_COMMIT"
+# BUILD_ENV_COMMIT_MSG="$COMMIT_MSG"
+# BUILD_ENV_DOCKER_REPO="$DOCKER_REPO"
+# BUILD_ENV_DOCKERFILE_PATH="$DOCKERFILE_PATH"
+# BUILD_ENV_DOCKER_TAG="$DOCKER_TAG"
+# BUILD_ENV_IMAGE_NAME="$IMAGE_NAME"

@@ -6,6 +6,13 @@
 
 ***
 
+### Version 19.10
+
+- badges from `microbadger.com` removed
+- badges from `badgen.net` introduced
+- script **util-refresh-readme.sh** introduced
+- build hooks updated
+
 ### Version 19.08
 
 - **dev-base-alpine**
