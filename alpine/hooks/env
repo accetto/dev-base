@@ -6,10 +6,8 @@ DOCKERFILE_PATH=${DOCKERFILE_PATH:-./Dockerfile.alpine}
 DOCKER_REPO=${DOCKER_REPO:-accetto/dev-base-alpine}
 
 BASETAG=""
-VERSION_STICKER=""
-
 TODAY=$(date +%Y-%m-%d)
-VCS_REF=`git rev-parse --short HEAD`
+VERSION_STICKER=""
 
 VERSION_STICKER_LATEST="alpine3.10.2"
 VERSION_STICKER_EDGE="alpine3.11_alpha20190925"

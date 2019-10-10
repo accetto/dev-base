@@ -6,16 +6,16 @@
 
 ***
 
-![badge-docker-pulls][badge-docker-pulls]
-![badge-docker-stars][badge-docker-stars]
-![badge-github-stars][badge-github-stars]
+[![badge-docker-pulls][badge-docker-pulls]
+![badge-docker-stars][badge-docker-stars]][this-docker]
+[![badge-github-stars][badge-github-stars]
 ![badge-github-forks][badge-github-forks]
 ![badge-github-release][badge-github-release]
 ![badge-github-releases][badge-github-releases]
 ![badge-github-commits][badge-github-commits]
 ![badge-github-last-commit][badge-github-last-commit]
 ![badge-github-closed-issues][badge-github-closed-issues]
-![badge-github-open-issues][badge-github-open-issues]
+![badge-github-open-issues][badge-github-open-issues]][this-github]
 
 This repository is just for testing and it is not intended to be actually used otherwise.
 
@@ -72,10 +72,6 @@ Real images with useful features can be found in my Docker Hub [accetto][accetto
 
 [badge-VERSION_STICKER_LATEST]: https://badgen.net/badge/version%20sticker/ubuntu18.04.3/blue
 
-<!-- [badge-VERSION_STICKER_LATEST]: https://img.shields.io/static/v1?label=latest&message=ubuntu18.04.3&color=blue&style=flat-square -->
-
 <!-- badges:rolling -->
 
 [badge-VERSION_STICKER_ROLLING]: https://badgen.net/badge/version%20sticker/ubuntu19.04/blue
-
-<!-- [badge-VERSION_STICKER_ROLLING]: https://img.shields.io/static/v1?label=rolling&message=ubuntu19.04&color=blue&style=flat-square -->

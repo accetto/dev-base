@@ -6,16 +6,16 @@
 
 ***
 
-![badge-docker-pulls][badge-docker-pulls]
-![badge-docker-stars][badge-docker-stars]
-![badge-github-stars][badge-github-stars]
+[![badge-docker-pulls][badge-docker-pulls]
+![badge-docker-stars][badge-docker-stars]][this-docker]
+[![badge-github-stars][badge-github-stars]
 ![badge-github-forks][badge-github-forks]
 ![badge-github-release][badge-github-release]
 ![badge-github-releases][badge-github-releases]
 ![badge-github-commits][badge-github-commits]
 ![badge-github-last-commit][badge-github-last-commit]
 ![badge-github-closed-issues][badge-github-closed-issues]
-![badge-github-open-issues][badge-github-open-issues]
+![badge-github-open-issues][badge-github-open-issues]][this-github]
 
 This repository is just for testing and it is not intended to be actually used otherwise.
 
