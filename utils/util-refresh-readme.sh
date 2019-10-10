@@ -26,7 +26,7 @@ find "$searchdir" -type f -name "README.md" | while read readme_file ; do \
 
         echo "$dir"
 
-        sticker_lines=$(grep -E '^\s*VERSION_STICKER_[A-Z]*="[^$]+' "$env_file")
+        sticker_lines=$(grep -E '^\s*VERSION_STICKER_[A-Z]+="[^$]+' "$env_file")
         echo "$sticker_lines"
 
         for sticker_line in $sticker_lines ; do
@@ -36,7 +36,10 @@ find "$searchdir" -type f -name "README.md" | while read readme_file ; do \
             sticker_value=${arr[1]}
             sticker_value=${sticker_value//'"'/}
 
-            sed -i "s/\(\[badge\-$sticker_label\][^&]*\&[^=]*=\)\([^&]*\)/\1$sticker_value/" "$readme_file"
+            ### if using 'shields.io' static badges
+            # sed -i "s/^\s*\(\[badge\-$sticker_label\][^&]*\&[^=]*=\)\([^&]*\)/\1$sticker_value/" "$readme_file"
+            ### if using 'badgen.net' static badges
+            sed -i "s/^\s*\(\[badge\-$sticker_label\]:\s*https:\/\/[^/]*\/badge\/[^/]*\/\)\([^/]*\)/\1$sticker_value/" "$readme_file"
         done
     fi
 done
