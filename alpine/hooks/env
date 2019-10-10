@@ -13,7 +13,6 @@ VCS_REF=`git rev-parse --short HEAD`
 
 VERSION_STICKER_LATEST="alpine3.10.2"
 VERSION_STICKER_EDGE="alpine3.11_alpha20190925"
-VERSION_STICKER_TEST="ubuntu18.04.3-node10.16.3-npm6.9.0-code1.38.1-tsc3.6.3-heroku7.33.1-psql10.10-chromium77.0.3865.90"
 
 case "${DOCKER_TAG}" in
 

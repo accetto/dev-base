@@ -35,10 +35,6 @@ Real images with useful features can be found in my Docker Hub [accetto][accetto
 
     ![badge-VERSION_STICKER_EDGE][badge-VERSION_STICKER_EDGE]
 
-  - `test-only`
-
-    ![badge-VERSION_STICKER_TEST][badge-VERSION_STICKER_TEST]
-
 ***
 
 [this-docker]: https://hub.docker.com/r/accetto/dev-base-alpine
@@ -76,22 +72,6 @@ Real images with useful features can be found in my Docker Hub [accetto][accetto
 
 [badge-VERSION_STICKER_LATEST]: https://badgen.net/badge/version%20sticker/alpine3.10.2/blue
 
-<!-- [badge-VERSION_STICKER_LATEST]: https://img.shields.io/static/v1?label=latest&message=xalpine3.10.2&color=blue&style=flat-square
-
-[badge-microbadger-commit-latest]: https://images.microbadger.com/badges/commit/accetto/dev-base-alpine:latest.svg (https://microbadger.com/images/accetto/dev-base-alpine:latest) -->
-
 <!-- badges:edge -->
 
 [badge-VERSION_STICKER_EDGE]: https://badgen.net/badge/version%20sticker/alpine3.11_alpha20190925/blue
-
-<!-- [badge-VERSION_STICKER_EDGE]: https://img.shields.io/static/v1?label=edge&message=xalpine3.11_alpha20190925&color=blue&style=flat-square
-
-[badge-microbadger-commit-edge]: https://images.microbadger.com/badges/commit/accetto/dev-base-alpine:edge.svg (https://microbadger.com/images/accetto/dev-base-alpine:edge) -->
-
-<!-- badges:test -->
-
-[badge-VERSION_STICKER_TEST]: https://badgen.net/badge/version%20sticker/ubuntu18.04.3-node10.16.3-npm6.9.0-code1.38.1-tsc3.6.3-heroku7.33.1-psql10.10-chromium77.0.3865.90/blue
-
-<!-- [badge-VERSION_STICKER_TEST]: https://img.shields.io/static/v1?label=test&message=xubuntu18.04.3-node10.16.3-npm6.9.0-code1.38.1-tsc3.6.3-heroku7.33.1-psql10.10-chromium77.0.3865.90&color=blue&style=flat-square
-
-[badge-microbadger-commit-test]: https://images.microbadger.com/badges/commit/accetto/dev-base-alpine:dev.svg (https://microbadger.com/images/accetto/dev-base-alpine:dev) -->
