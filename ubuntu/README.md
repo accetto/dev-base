@@ -8,6 +8,7 @@
 
 ![badge-docker-pulls][badge-docker-pulls]
 ![badge-docker-stars][badge-docker-stars]
+![badge-github-release][badge-github-release]
 
 This repository is just for testing and it is not intended to be actually used otherwise.
 
@@ -41,6 +42,10 @@ Real images with useful features can be found in my Docker Hub [accetto][accetto
 [badge-docker-pulls]: https://badgen.net/docker/pulls/accetto/dev-base-ubuntu?icon=docker&label=pulls
 
 [badge-docker-stars]: https://badgen.net/docker/stars/accetto/dev-base-ubuntu?icon=docker&label=stars
+
+<!-- github badges -->
+
+[badge-github-release]: https://badgen.net/github/release/accetto/dev-base?icon=github&label=release
 
 <!-- latest badges -->
 
