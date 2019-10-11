@@ -6,6 +6,10 @@
 
 ***
 
+### Version 19.10.3
+
+- commit badges per tag
+
 ### Version 19.10.2
 
 - badges from `shields.io` and `microbadger.com` added
