@@ -27,6 +27,10 @@ Real images with useful features can be found in my Docker Hub [accetto][accetto
 
     ![badge-VERSION_STICKER_EDGE][badge-VERSION_STICKER_EDGE]
 
+  - just a long badge test
+
+    ![badge-VERSION_STICKER_TEST][badge-VERSION_STICKER_TEST]
+
 ***
 
 [this-docker]: https://hub.docker.com/r/accetto/dev-base-alpine
@@ -49,3 +53,6 @@ Real images with useful features can be found in my Docker Hub [accetto][accetto
 <!-- edge badges -->
 
 [badge-VERSION_STICKER_EDGE]: https://badgen.net/badge/version%20sticker/alpine3.11_alpha20190925/blue
+
+<!-- long badge test -->
+[badge-VERSION_STICKER_TEST]: https://badgen.net/badge/version%20sticker/ubuntu18.04.3-node10.16.3-npm6.9.0-code1.38.1-tsc3.6.3-heroku7.33.1-psql10.10-chromium77.0.3865.90/blue
