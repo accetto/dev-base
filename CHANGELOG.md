@@ -6,6 +6,10 @@
 
 ***
 
+### Version 19.10.1
+
+- GitHub badges except `release` removed from individual image README files
+
 ### Version 19.10
 
 - badges from `microbadger.com` removed
