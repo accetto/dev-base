@@ -7,11 +7,11 @@
 ***
 
 ![badge-github-release][badge-github-release]
-![badge-github-releases][badge-github-releases]
 ![badge-github-stars][badge-github-stars]
 ![badge-github-forks][badge-github-forks]
 ![badge-github-open-issues][badge-github-open-issues]
 ![badge-github-closed-issues][badge-github-closed-issues]
+![badge-github-releases][badge-github-releases]
 ![badge-github-commits][badge-github-commits]
 ![badge-github-last-commit][badge-github-last-commit]
 
