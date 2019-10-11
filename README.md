@@ -6,14 +6,14 @@
 
 ***
 
-[![badge-github-stars][badge-github-stars]
-![badge-github-forks][badge-github-forks]
 ![badge-github-release][badge-github-release]
+![badge-github-stars][badge-github-stars]
+![badge-github-forks][badge-github-forks]
+![badge-github-open-issues][badge-github-open-issues]
+![badge-github-closed-issues][badge-github-closed-issues]
 ![badge-github-releases][badge-github-releases]
 ![badge-github-commits][badge-github-commits]
 ![badge-github-last-commit][badge-github-last-commit]
-![badge-github-closed-issues][badge-github-closed-issues]
-![badge-github-open-issues][badge-github-open-issues]][this-github]
 
 This repository is just for testing and it is not intended to be actually used otherwise.
 
@@ -29,7 +29,7 @@ Real images with useful features can be found in my Docker Hub repository [accet
 
 [accetto-docker]: https://hub.docker.com/u/accetto/
 
-<!-- badges:github -->
+<!-- github badges -->
 
 [badge-github-release]: https://badgen.net/github/release/accetto/dev-base?icon=github&label=release
 
