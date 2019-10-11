@@ -9,6 +9,8 @@
 ![badge-docker-pulls][badge-docker-pulls]
 ![badge-docker-stars][badge-docker-stars]
 ![badge-github-release][badge-github-release]
+![badge-github-release-date][badge-github-release-date]
+![badge-github-commit][badge-github-commit]
 
 This repository is just for testing and it is not intended to be actually used otherwise.
 
@@ -46,6 +48,10 @@ Real images with useful features can be found in my Docker Hub [accetto][accetto
 <!-- github badges -->
 
 [badge-github-release]: https://badgen.net/github/release/accetto/dev-base?icon=github&label=release
+
+[badge-github-release-date]: https://img.shields.io/github/release-date/accetto/dev-base?logo=github
+
+[badge-github-commit]: https://images.microbadger.com/badges/commit/accetto/dev-base-ubuntu.svg
 
 <!-- latest badges -->
 

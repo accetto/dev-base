@@ -7,6 +7,7 @@
 ***
 
 ![badge-github-release][badge-github-release]
+![badge-github-release-date][badge-github-release-date]
 ![badge-github-stars][badge-github-stars]
 ![badge-github-forks][badge-github-forks]
 ![badge-github-open-issues][badge-github-open-issues]
@@ -32,6 +33,8 @@ Real images with useful features can be found in my Docker Hub repository [accet
 <!-- github badges -->
 
 [badge-github-release]: https://badgen.net/github/release/accetto/dev-base?icon=github&label=release
+
+[badge-github-release-date]: https://img.shields.io/github/release-date/accetto/dev-base?logo=github
 
 [badge-github-stars]: https://badgen.net/github/stars/accetto/dev-base?icon=github&label=stars
 
