@@ -10,7 +10,6 @@
 ![badge-docker-stars][badge-docker-stars]
 ![badge-github-release][badge-github-release]
 ![badge-github-release-date][badge-github-release-date]
-![badge-github-commit][badge-github-commit]
 
 This repository is just for testing and it is not intended to be actually used otherwise.
 
@@ -25,10 +24,12 @@ Real images with useful features can be found in my Docker Hub [accetto][accetto
   - `latest` based on `ubuntu:latest`
 
     ![badge-VERSION_STICKER_LATEST][badge-VERSION_STICKER_LATEST]
+    ![badge-github-commit-latest][badge-github-commit-latest]
 
   - `rolling` based on `ubuntu:rolling`
 
     ![badge-VERSION_STICKER_ROLLING][badge-VERSION_STICKER_ROLLING]
+    ![badge-github-commit-rolling][badge-github-commit-rolling]
 
 ***
 
@@ -51,12 +52,14 @@ Real images with useful features can be found in my Docker Hub [accetto][accetto
 
 [badge-github-release-date]: https://img.shields.io/github/release-date/accetto/dev-base?logo=github
 
-[badge-github-commit]: https://images.microbadger.com/badges/commit/accetto/dev-base-ubuntu.svg
-
 <!-- latest badges -->
 
 [badge-VERSION_STICKER_LATEST]: https://badgen.net/badge/version%20sticker/ubuntu18.04.3/blue
 
+[badge-github-commit-latest]: https://images.microbadger.com/badges/commit/accetto/dev-base-ubuntu.svg
+
 <!-- rolling badges -->
 
 [badge-VERSION_STICKER_ROLLING]: https://badgen.net/badge/version%20sticker/ubuntu19.04/blue
+
+[badge-github-commit-rolling]: https://images.microbadger.com/badges/commit/accetto/dev-base-ubuntu.svg
