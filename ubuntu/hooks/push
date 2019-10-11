@@ -11,9 +11,9 @@ if [[ -n "${BASETAG}" ]] ; then
             docker tag ${IMAGE_NAME} ${DOCKER_REPO}:${VERSION_STICKER}
             docker push ${DOCKER_REPO}:${VERSION_STICKER}
             ;;
-        edge)
-            docker tag ${IMAGE_NAME} ${DOCKER_REPO}:edge-${VERSION_STICKER}
-            docker push ${DOCKER_REPO}:edge-${VERSION_STICKER}
+        rolling)
+            docker tag ${IMAGE_NAME} ${DOCKER_REPO}:rolling-${VERSION_STICKER}
+            docker push ${DOCKER_REPO}:rolling-${VERSION_STICKER}
             ;;
     esac
 else
