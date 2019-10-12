@@ -52,13 +52,13 @@ Real images with useful features can be found in my Docker Hub [accetto][accetto
 
 [badge-github-release-date]: https://img.shields.io/github/release-date/accetto/dev-base?logo=github
 
-<!-- latest badges -->
+<!-- latest tag badges -->
 
 [badge-VERSION_STICKER_LATEST]: https://badgen.net/badge/version%20sticker/ubuntu18.04.3/blue
 
 [badge-github-commit-latest]: https://images.microbadger.com/badges/commit/accetto/dev-base-ubuntu.svg
 
-<!-- rolling badges -->
+<!-- rolling tag badges -->
 
 [badge-VERSION_STICKER_ROLLING]: https://badgen.net/badge/version%20sticker/ubuntu19.04/blue
 

@@ -60,13 +60,13 @@ Real images with useful features can be found in my Docker Hub [accetto][accetto
 
 [badge-github-release-date]: https://img.shields.io/github/release-date/accetto/dev-base?logo=github
 
-<!-- latest badges -->
+<!-- latest tag badges -->
 
 [badge-VERSION_STICKER_LATEST]: https://badgen.net/badge/version%20sticker/alpine3.10.2/blue
 
 [badge-github-commit-latest]: https://images.microbadger.com/badges/commit/accetto/dev-base-alpine.svg
 
-<!-- edge badges -->
+<!-- edge tag badges -->
 
 [badge-VERSION_STICKER_EDGE]: https://badgen.net/badge/version%20sticker/alpine3.11_alpha20190925/blue
 
