@@ -6,6 +6,10 @@
 
 ***
 
+### Version 19.10.5
+
+- dashboards added
+
 ### Version 19.10.4
 
 - build hooks updated
