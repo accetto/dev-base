@@ -2,101 +2,29 @@
 
 ## Docker Hub Repositories
 
-### xubuntu-vnc
-
-![badge-docker-xubuntu-vnc-pulls][badge-docker-xubuntu-vnc-pulls]
-![badge-docker-xubuntu-vnc-stars][badge-docker-xubuntu-vnc-stars]
-
-### xubuntu-vnc-chromium
-
-![badge-docker-xubuntu-vnc-chromium-pulls][badge-docker-xubuntu-vnc-chromium-pulls]
-![badge-docker-xubuntu-vnc-chromium-stars][badge-docker-xubuntu-vnc-chromium-stars]
-
-### xubuntu-vnc-firefox
-
-![badge-docker-xubuntu-vnc-firefox-pulls][badge-docker-xubuntu-vnc-firefox-pulls]
-![badge-docker-xubuntu-vnc-firefox-stars][badge-docker-xubuntu-vnc-firefox-stars]
-
-### xubuntu-vnc-node
-
-![badge-docker-xubuntu-vnc-node-pulls][badge-docker-xubuntu-vnc-node-pulls]
-![badge-docker-xubuntu-vnc-node-stars][badge-docker-xubuntu-vnc-node-stars]
-
-### xubuntu-vnc-typescript
-
-![badge-docker-xubuntu-vnc-typescript-pulls][badge-docker-xubuntu-vnc-typescript-pulls]
-![badge-docker-xubuntu-vnc-typescript-stars][badge-docker-xubuntu-vnc-typescript-stars]
-
-### xubuntu-vnc-angular
-
-![badge-docker-xubuntu-vnc-angular-pulls][badge-docker-xubuntu-vnc-angular-pulls]
-![badge-docker-xubuntu-vnc-angular-stars][badge-docker-xubuntu-vnc-angular-stars]
-
-### xubuntu-vnc-js-heroku-postgresql
-
-![badge-docker-xubuntu-vnc-js-heroku-postgresql-pulls][badge-docker-xubuntu-vnc-js-heroku-postgresql-pulls]
-![badge-docker-xubuntu-vnc-js-heroku-postgresql-stars][badge-docker-xubuntu-vnc-js-heroku-postgresql-stars]
-
-### xubuntu-vnc-inkscape
-
-![badge-docker-xubuntu-vnc-inkscape-pulls][badge-docker-xubuntu-vnc-inkscape-pulls]
-![badge-docker-xubuntu-vnc-inkscape-stars][badge-docker-xubuntu-vnc-inkscape-stars]
-
-***
-
-### xubuntu-vnc-novnc
-
-![badge-docker-xubuntu-vnc-novnc-pulls][badge-docker-xubuntu-vnc-novnc-pulls]
-![badge-docker-xubuntu-vnc-novnc-stars][badge-docker-xubuntu-vnc-novnc-stars]
-
-### xubuntu-vnc-novnc-chromium
-
-![badge-docker-xubuntu-vnc-novnc-chromium-pulls][badge-docker-xubuntu-vnc-novnc-chromium-pulls]
-![badge-docker-xubuntu-vnc-novnc-chromium-stars][badge-docker-xubuntu-vnc-novnc-chromium-stars]
-
-### xubuntu-vnc-novnc-firefox
-
-![badge-docker-xubuntu-vnc-novnc-firefox-pulls][badge-docker-xubuntu-vnc-novnc-firefox-pulls]
-![badge-docker-xubuntu-vnc-novnc-firefox-stars][badge-docker-xubuntu-vnc-novnc-firefox-stars]
-
-***
-
-### ubuntu-vnc-xfce
-
-![badge-docker-ubuntu-vnc-xfce-pulls][badge-docker-ubuntu-vnc-xfce-pulls]
-![badge-docker-ubuntu-vnc-xfce-stars][badge-docker-ubuntu-vnc-xfce-stars]
-
-### ubuntu-vnc-xfce-chromium
-
-![badge-docker-ubuntu-vnc-xfce-chromium-pulls][badge-docker-ubuntu-vnc-xfce-chromium-pulls]
-![badge-docker-ubuntu-vnc-xfce-chromium-stars][badge-docker-ubuntu-vnc-xfce-chromium-stars]
-
-### ubuntu-vnc-xfce-firefox-default
-
-![badge-docker-ubuntu-vnc-xfce-firefox-default-pulls][badge-docker-ubuntu-vnc-xfce-firefox-default-pulls]
-![badge-docker-ubuntu-vnc-xfce-firefox-default-stars][badge-docker-ubuntu-vnc-xfce-firefox-default-stars]
-
-### ubuntu-vnc-xfce-firefox-plus
-
-![badge-docker-ubuntu-vnc-xfce-firefox-plus-pulls][badge-docker-ubuntu-vnc-xfce-firefox-plus-pulls]
-![badge-docker-ubuntu-vnc-xfce-firefox-plus-stars][badge-docker-ubuntu-vnc-xfce-firefox-plus-stars]
-
-***
-
-### argbash-docker
-
-![badge-docker-argbash-docker-pulls][badge-docker-argbash-docker-pulls]
-![badge-docker-argbash-docker-stars][badge-docker-argbash-docker-stars]
-
-### dev-base-alpine
-
-![badge-docker-dev-base-alpine-pulls][badge-docker-dev-base-alpine-pulls]
-![badge-docker-dev-base-alpine-stars][badge-docker-dev-base-alpine-stars]
-
-### dev-base-ubuntu
-
-![badge-docker-dev-base-ubuntu-pulls][badge-docker-dev-base-ubuntu-pulls]
-![badge-docker-dev-base-ubuntu-stars][badge-docker-dev-base-ubuntu-stars]
+| Repository                       | Pulls                                                                                                       | Stars                                                                                                       |
+| :------------------------------- | :---------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------- |
+| xubuntu-vnc                      | ![badge-docker-xubuntu-vnc-pulls][badge-docker-xubuntu-vnc-pulls]                                           | ![badge-docker-xubuntu-vnc-stars][badge-docker-xubuntu-vnc-stars]                                           |
+| xubuntu-vnc-chromium             | ![badge-docker-xubuntu-vnc-chromium-pulls][badge-docker-xubuntu-vnc-chromium-pulls]                         | ![badge-docker-xubuntu-vnc-chromium-stars][badge-docker-xubuntu-vnc-chromium-stars]                         |
+| xubuntu-vnc-firefox              | ![badge-docker-xubuntu-vnc-firefox-pulls][badge-docker-xubuntu-vnc-firefox-pulls]                           | ![badge-docker-xubuntu-vnc-firefox-stars][badge-docker-xubuntu-vnc-firefox-stars]                           |
+| xubuntu-vnc-node                 | ![badge-docker-xubuntu-vnc-node-pulls][badge-docker-xubuntu-vnc-node-pulls]                                 | ![badge-docker-xubuntu-vnc-node-stars][badge-docker-xubuntu-vnc-node-stars]                                 |
+| xubuntu-vnc-typescript           | ![badge-docker-xubuntu-vnc-typescript-pulls][badge-docker-xubuntu-vnc-typescript-pulls]                     | ![badge-docker-xubuntu-vnc-typescript-stars][badge-docker-xubuntu-vnc-typescript-stars]                     |
+| xubuntu-vnc-angular              | ![badge-docker-xubuntu-vnc-angular-pulls][badge-docker-xubuntu-vnc-angular-pulls]                           | ![badge-docker-xubuntu-vnc-angular-stars][badge-docker-xubuntu-vnc-angular-stars]                           |
+| xubuntu-vnc-js-heroku-postgresql | ![badge-docker-xubuntu-vnc-js-heroku-postgresql-pulls][badge-docker-xubuntu-vnc-js-heroku-postgresql-pulls] | ![badge-docker-xubuntu-vnc-js-heroku-postgresql-stars][badge-docker-xubuntu-vnc-js-heroku-postgresql-stars] |
+| xubuntu-vnc-inkscape             | ![badge-docker-xubuntu-vnc-inkscape-pulls][badge-docker-xubuntu-vnc-inkscape-pulls]                         | ![badge-docker-xubuntu-vnc-inkscape-stars][badge-docker-xubuntu-vnc-inkscape-stars]                         |
+|                                  |                                                                                                             |                                                                                                             |
+| xubuntu-vnc-novnc                | ![badge-docker-xubuntu-vnc-novnc-pulls][badge-docker-xubuntu-vnc-novnc-pulls]                               | ![badge-docker-xubuntu-vnc-novnc-stars][badge-docker-xubuntu-vnc-novnc-stars]                               |
+| xubuntu-vnc-novnc-chromium       | ![badge-docker-xubuntu-vnc-novnc-chromium-pulls][badge-docker-xubuntu-vnc-novnc-chromium-pulls]             | ![badge-docker-xubuntu-vnc-novnc-chromium-stars][badge-docker-xubuntu-vnc-novnc-chromium-stars]             |
+| xubuntu-vnc-novnc-firefox        | ![badge-docker-xubuntu-vnc-novnc-firefox-pulls][badge-docker-xubuntu-vnc-novnc-firefox-pulls]               | ![badge-docker-xubuntu-vnc-novnc-firefox-stars][badge-docker-xubuntu-vnc-novnc-firefox-stars]               |
+|                                  |                                                                                                             |                                                                                                             |
+| ubuntu-vnc-xfce                  | ![badge-docker-ubuntu-vnc-xfce-pulls][badge-docker-ubuntu-vnc-xfce-pulls]                                   | ![badge-docker-ubuntu-vnc-xfce-stars][badge-docker-ubuntu-vnc-xfce-stars]                                   |
+| ubuntu-vnc-xfce-chromium         | ![badge-docker-ubuntu-vnc-xfce-chromium-pulls][badge-docker-ubuntu-vnc-xfce-chromium-pulls]                 | ![badge-docker-ubuntu-vnc-xfce-chromium-stars][badge-docker-ubuntu-vnc-xfce-chromium-stars]                 |
+| ubuntu-vnc-xfce-firefox-default  | ![badge-docker-ubuntu-vnc-xfce-firefox-default-pulls][badge-docker-ubuntu-vnc-xfce-firefox-default-pulls]   | ![badge-docker-ubuntu-vnc-xfce-firefox-default-stars][badge-docker-ubuntu-vnc-xfce-firefox-default-stars]   |
+| ubuntu-vnc-xfce-firefox-plus     | ![badge-docker-ubuntu-vnc-xfce-firefox-plus-pulls][badge-docker-ubuntu-vnc-xfce-firefox-plus-pulls]         | ![badge-docker-ubuntu-vnc-xfce-firefox-plus-stars][badge-docker-ubuntu-vnc-xfce-firefox-plus-stars]         |
+|                                  |                                                                                                             |                                                                                                             |
+| argbash-docker                   | ![badge-docker-argbash-docker-pulls][badge-docker-argbash-docker-pulls]                                     | ![badge-docker-argbash-docker-stars][badge-docker-argbash-docker-stars]                                     |
+| dev-base-alpine                  | ![badge-docker-dev-base-alpine-pulls][badge-docker-dev-base-alpine-pulls]                                   | ![badge-docker-dev-base-alpine-stars][badge-docker-dev-base-alpine-stars]                                   |
+| dev-base-ubuntu                  | ![badge-docker-dev-base-ubuntu-pulls][badge-docker-dev-base-ubuntu-pulls]                                   | ![badge-docker-dev-base-ubuntu-stars][badge-docker-dev-base-ubuntu-stars]                                   |
 
 ***
 
