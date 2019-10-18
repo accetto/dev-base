@@ -8,28 +8,28 @@
 searchdir=$1
 searchdir=${searchdir:-..}
 
-if [[ ! -d $searchdir ]] ; then
-    echo "Folder '$searchdir' not found!"
+if [[ ! -d ${searchdir} ]] ; then
+    echo "Folder '${searchdir}' not found!"
     exit 1
 fi
 
-cd $searchdir
+cd ${searchdir}
 searchdir=$(pwd)
 
 ### process only folders containing 'README.md' and 'hooks/env' files
-find "$searchdir" -type f -name "README.md" | while read readme_file ; do \
+find "${searchdir}" -type f -name "README.md" | while read readme_file ; do \
 
-    dir="$(dirname $readme_file)"
-    env_file="$dir/hooks/env"
+    dir="$(dirname ${readme_file})"
+    env_file="${dir}/hooks/env"
 
-    if [[ -f "$env_file" ]] ; then
+    if [[ -f "${env_file}" ]] ; then
 
-        echo "$dir"
+        echo "${dir}"
 
-        sticker_lines=$(grep -E '^\s*VERSION_STICKER_[A-Z]+="[^$]+' "$env_file")
-        echo "$sticker_lines"
+        sticker_lines=$(grep -E '^\s*VERSION_STICKER_[A-Z]+="[^$]+' "${env_file}")
+        echo "${sticker_lines}"
 
-        for sticker_line in $sticker_lines ; do
+        for sticker_line in ${sticker_lines} ; do
 
             arr=(${sticker_line//'='/' '})
             sticker_label=${arr[0]}
@@ -39,7 +39,7 @@ find "$searchdir" -type f -name "README.md" | while read readme_file ; do \
             ### if using 'shields.io' static badges
             # sed -i "s/^\s*\(\[badge\-$sticker_label\][^&]*\&[^=]*=\)\([^&]*\)/\1$sticker_value/" "$readme_file"
             ### if using 'badgen.net' static badges
-            sed -i "s/^\s*\(\[badge\-$sticker_label\]:\s*https:\/\/[^/]*\/badge\/[^/]*\/\)\([^/]*\)/\1$sticker_value/" "$readme_file"
+            sed -i "s/^\s*\(\[badge\-${sticker_label}\]:\s*https:\/\/[^/]*\/badge\/[^/]*\/\)\([^/]*\)/\1${sticker_value}/" "${readme_file}"
         done
     fi
 done

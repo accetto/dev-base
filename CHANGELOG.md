@@ -6,6 +6,11 @@
 
 ***
 
+### Version 19.10.4
+
+- build hooks updated
+  - command line arguments passed to `build` hook
+
 ### Version 19.10.3
 
 - commit badges per tag

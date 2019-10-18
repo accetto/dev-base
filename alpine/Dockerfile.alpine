@@ -26,7 +26,11 @@ ENV \
     VERSION_STICKER=${ARG_VERSION_STICKER}
 
 COPY [ "./src/startup", "${STARTUPDIR}/" ]
-RUN find "${STARTUPDIR}" -name '*.sh' -exec chmod -v +x {} + 
+RUN find "${STARTUPDIR}" -name '*.sh' -exec chmod -v +x {} +
+
+### just for testing
+# RUN apk add --update
+# RUN rm -rf /var/cache/apk/*
 
 ### supports testing, should be overriden
 # ENTRYPOINT ["tail", "-f", "/dev/null"]
