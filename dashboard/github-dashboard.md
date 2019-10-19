@@ -1,8 +1,6 @@
-# Dashboard
+# GitHub Dashboard
 
-## GitHub Repositories
-
-### xubuntu-vnc
+[xubuntu-vnc](https://github.com/accetto/xubuntu-vnc)
 
 ![badge-github-xubuntu-vnc-release][badge-github-xubuntu-vnc-release]
 ![badge-github-xubuntu-vnc-release-date][badge-github-xubuntu-vnc-release-date]
@@ -14,7 +12,7 @@
 ![badge-github-xubuntu-vnc-commits][badge-github-xubuntu-vnc-commits]
 ![badge-github-xubuntu-vnc-last-commit][badge-github-xubuntu-vnc-last-commit]
 
-### xubuntu-vnc-novnc
+[xubuntu-vnc-novnc](https://github.com/accetto/xubuntu-vnc-novnc)
 
 ![badge-github-xubuntu-vnc-novnc-release][badge-github-xubuntu-vnc-novnc-release]
 ![badge-github-xubuntu-vnc-novnc-release-date][badge-github-xubuntu-vnc-novnc-release-date]
@@ -26,7 +24,7 @@
 ![badge-github-xubuntu-vnc-novnc-commits][badge-github-xubuntu-vnc-novnc-commits]
 ![badge-github-xubuntu-vnc-novnc-last-commit][badge-github-xubuntu-vnc-novnc-last-commit]
 
-### ubuntu-vnc-xfce
+[ubuntu-vnc-xfce](https://github.com/accetto/ubuntu-vnc-xfce)
 
 ![badge-github-ubuntu-vnc-xfce-release][badge-github-ubuntu-vnc-xfce-release]
 ![badge-github-ubuntu-vnc-xfce-release-date][badge-github-ubuntu-vnc-xfce-release-date]
@@ -38,7 +36,7 @@
 ![badge-github-ubuntu-vnc-xfce-commits][badge-github-ubuntu-vnc-xfce-commits]
 ![badge-github-ubuntu-vnc-xfce-last-commit][badge-github-ubuntu-vnc-xfce-last-commit]
 
-### ubuntu-vnc-xfce-firefox
+[ubuntu-vnc-xfce-firefox](https://github.com/accetto/ubuntu-vnc-xfce-firefox)
 
 ![badge-github-ubuntu-vnc-xfce-firefox-release][badge-github-ubuntu-vnc-xfce-firefox-release]
 ![badge-github-ubuntu-vnc-xfce-firefox-release-date][badge-github-ubuntu-vnc-xfce-firefox-release-date]
@@ -50,7 +48,7 @@
 ![badge-github-ubuntu-vnc-xfce-firefox-commits][badge-github-ubuntu-vnc-xfce-firefox-commits]
 ![badge-github-ubuntu-vnc-xfce-firefox-last-commit][badge-github-ubuntu-vnc-xfce-firefox-last-commit]
 
-### ubuntu-vnc-xfce-firefox-plus
+[ubuntu-vnc-xfce-firefox-plus](https://github.com/accetto/ubuntu-vnc-xfce-firefox-plus)
 
 ![badge-github-ubuntu-vnc-xfce-firefox-plus-release][badge-github-ubuntu-vnc-xfce-firefox-plus-release]
 ![badge-github-ubuntu-vnc-xfce-firefox-plus-release-date][badge-github-ubuntu-vnc-xfce-firefox-plus-release-date]
@@ -62,7 +60,7 @@
 ![badge-github-ubuntu-vnc-xfce-firefox-plus-commits][badge-github-ubuntu-vnc-xfce-firefox-plus-commits]
 ![badge-github-ubuntu-vnc-xfce-firefox-plus-last-commit][badge-github-ubuntu-vnc-xfce-firefox-plus-last-commit]
 
-### ubuntu-vnc-xfce-firefox-chromium
+[ubuntu-vnc-xfce-firefox-chromium](https://github.com/accetto/ubuntu-vnc-xfce-chromium)
 
 ![badge-github-ubuntu-vnc-xfce-chromium-release][badge-github-ubuntu-vnc-xfce-chromium-release]
 ![badge-github-ubuntu-vnc-xfce-chromium-release-date][badge-github-ubuntu-vnc-xfce-chromium-release-date]
@@ -74,7 +72,7 @@
 ![badge-github-ubuntu-vnc-xfce-chromium-commits][badge-github-ubuntu-vnc-xfce-chromium-commits]
 ![badge-github-ubuntu-vnc-xfce-chromium-last-commit][badge-github-ubuntu-vnc-xfce-chromium-last-commit]
 
-### argbash-docker
+[argbash-docker](https://github.com/accetto/argbash-docker)
 
 ![badge-github-argbash-docker-release][badge-github-argbash-docker-release]
 ![badge-github-argbash-docker-release-date][badge-github-argbash-docker-release-date]
@@ -86,7 +84,7 @@
 ![badge-github-argbash-docker-commits][badge-github-argbash-docker-commits]
 ![badge-github-argbash-docker-last-commit][badge-github-argbash-docker-last-commit]
 
-### hello-there
+[hello-there](https://github.com/accetto/hello-there)
 
 ![badge-github-hello-there-release][badge-github-hello-there-release]
 ![badge-github-hello-there-release-date][badge-github-hello-there-release-date]
@@ -98,7 +96,7 @@
 ![badge-github-hello-there-commits][badge-github-hello-there-commits]
 ![badge-github-hello-there-last-commit][badge-github-hello-there-last-commit]
 
-### dev-base
+[dev-base](https://github.com/accetto/dev-base)
 
 ![badge-github-dev-base-release][badge-github-dev-base-release]
 ![badge-github-dev-base-release-date][badge-github-dev-base-release-date]
