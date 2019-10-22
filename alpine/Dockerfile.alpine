@@ -1,8 +1,8 @@
-# ./hooks/build latest
-# ./hooks/build edge
 # ./hooks/build dev
 # ./hooks/build dfw
 # ./hooks/build nux
+# ./hooks/build latest
+# ./hooks/build edge
 # ./hooks/build nux-edge
 
 ARG BASETAG=latest
@@ -29,8 +29,35 @@ COPY [ "./src/startup", "${STARTUPDIR}/" ]
 RUN find "${STARTUPDIR}" -name '*.sh' -exec chmod -v +x {} +
 
 ### just for testing
+# RUN \
+#     echo "Breaking building because of XY" \
+#     && exit 1
+
+### just for testing
 # RUN apk add --update
 # RUN rm -rf /var/cache/apk/*
+
+### just for testing
+# RUN \
+# { \
+#     JQ_VERSION="1.6" ; \
+#     JQ_DISTRO="jq-linux64" ; \
+#     cd /tmp ; \
+#     wget -q "https://github.com/stedolan/jq/releases/download/jq-${JQ_VERSION}/${JQ_DISTRO}" ; \
+#     wget -q "https://raw.githubusercontent.com/stedolan/jq/master/sig/v${JQ_VERSION}/sha256sum.txt" ; \
+#     test=$(grep "${JQ_DISTRO}" sha256sum.txt | sha256sum -c | grep -c "${JQ_DISTRO}: OK") ; \
+#     if [[ $test -ne 1 ]] ; then \
+#         echo "FAILURE: ${JQ_DISTRO} failed checksum test" ; \
+#         exit 1 ; \
+#     else \
+#         rm sha256sum.txt ; \
+#         chown root "${JQ_DISTRO}" ; \
+#         chmod +x "${JQ_DISTRO}" ; \
+#         # mv -f "${JQ_DISTRO}" $(which jq) ; \
+#         mv -f "${JQ_DISTRO}" /usr/bin/jq ; \
+#     fi ; \
+#     cd - ; \
+# }
 
 ### supports testing, should be overriden
 # ENTRYPOINT ["tail", "-f", "/dev/null"]
