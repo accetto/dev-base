@@ -9,8 +9,9 @@
 | [xubuntu-vnc-typescript](https://hub.docker.com/r/accetto/xubuntu-vnc-typescript)                     | ![badge-docker-xubuntu-vnc-typescript-pulls][badge-docker-xubuntu-vnc-typescript-pulls]                     | ![badge-docker-xubuntu-vnc-typescript-stars][badge-docker-xubuntu-vnc-typescript-stars]                     |
 | [xubuntu-vnc-angular](https://hub.docker.com/r/accetto/xubuntu-vnc-angular)                           | ![badge-docker-xubuntu-vnc-angular-pulls][badge-docker-xubuntu-vnc-angular-pulls]                           | ![badge-docker-xubuntu-vnc-angular-stars][badge-docker-xubuntu-vnc-angular-stars]                           |
 | [xubuntu-vnc-heroku-js-postgresql](https://hub.docker.com/r/accetto/xubuntu-vnc-heroku-js-postgresql) | ![badge-docker-xubuntu-vnc-heroku-js-postgresql-pulls][badge-docker-xubuntu-vnc-heroku-js-postgresql-pulls] | ![badge-docker-xubuntu-vnc-heroku-js-postgresql-stars][badge-docker-xubuntu-vnc-heroku-js-postgresql-stars] |
-| [xubuntu-vnc-inkscape-gimp](https://hub.docker.com/r/accetto/xubuntu-vnc-inkscape-gimp)               | ![badge-docker-xubuntu-vnc-inkscape-gimp-pulls][badge-docker-xubuntu-vnc-inkscape-gimp-pulls]               | ![badge-docker-xubuntu-vnc-inkscape-gimp-stars][badge-docker-xubuntu-vnc-inkscape-gimp-stars]                         |
 | [xubuntu-vnc-inkscape](https://hub.docker.com/r/accetto/xubuntu-vnc-inkscape)                         | ![badge-docker-xubuntu-vnc-inkscape-pulls][badge-docker-xubuntu-vnc-inkscape-pulls]                         | ![badge-docker-xubuntu-vnc-inkscape-stars][badge-docker-xubuntu-vnc-inkscape-stars]                         |
+| [xubuntu-vnc-gimp](https://hub.docker.com/r/accetto/xubuntu-vnc-gimp)                                 | ![badge-docker-xubuntu-vnc-gimp-pulls][badge-docker-xubuntu-vnc-gimp-pulls]                                 | ![badge-docker-xubuntu-vnc-gimp-stars][badge-docker-xubuntu-vnc-gimp-stars]                                 |
+| [xubuntu-vnc-drawio](https://hub.docker.com/r/accetto/xubuntu-vnc-drawio)                             | ![badge-docker-xubuntu-vnc-drawio-pulls][badge-docker-xubuntu-vnc-drawio-pulls]                             | ![badge-docker-xubuntu-vnc-drawio-stars][badge-docker-xubuntu-vnc-drawio-stars]                             |
 | [xubuntu-vnc-novnc](https://hub.docker.com/r/accetto/xubuntu-vnc-novnc)                               | ![badge-docker-xubuntu-vnc-novnc-pulls][badge-docker-xubuntu-vnc-novnc-pulls]                               | ![badge-docker-xubuntu-vnc-novnc-stars][badge-docker-xubuntu-vnc-novnc-stars]                               |
 | [xubuntu-vnc-novnc-chromium](https://hub.docker.com/r/accetto/xubuntu-vnc-novnc-chromium)             | ![badge-docker-xubuntu-vnc-novnc-chromium-pulls][badge-docker-xubuntu-vnc-novnc-chromium-pulls]             | ![badge-docker-xubuntu-vnc-novnc-chromium-stars][badge-docker-xubuntu-vnc-novnc-chromium-stars]             |
 | [xubuntu-vnc-novnc-firefox](https://hub.docker.com/r/accetto/xubuntu-vnc-novnc-firefox)               | ![badge-docker-xubuntu-vnc-novnc-firefox-pulls][badge-docker-xubuntu-vnc-novnc-firefox-pulls]               | ![badge-docker-xubuntu-vnc-novnc-firefox-stars][badge-docker-xubuntu-vnc-novnc-firefox-stars]               |
@@ -66,17 +67,23 @@
 
 [badge-docker-xubuntu-vnc-heroku-js-postgresql-stars]: https://badgen.net/docker/stars/accetto/xubuntu-vnc-heroku-js-postgresql?icon=docker&label=stars
 
-<!-- docker badges xubuntu-vnc-inkscape-gimp -->
-
-[badge-docker-xubuntu-vnc-inkscape-gimp-pulls]: https://badgen.net/docker/pulls/accetto/xubuntu-vnc-inkscape-gimp?icon=docker&label=pulls
-
-[badge-docker-xubuntu-vnc-inkscape-gimp-stars]: https://badgen.net/docker/stars/accetto/xubuntu-vnc-inkscape-gimp?icon=docker&label=stars
-
 <!-- docker badges xubuntu-vnc-inkscape -->
 
 [badge-docker-xubuntu-vnc-inkscape-pulls]: https://badgen.net/docker/pulls/accetto/xubuntu-vnc-inkscape?icon=docker&label=pulls
 
 [badge-docker-xubuntu-vnc-inkscape-stars]: https://badgen.net/docker/stars/accetto/xubuntu-vnc-inkscape?icon=docker&label=stars
+
+<!-- docker badges xubuntu-vnc-gimp -->
+
+[badge-docker-xubuntu-vnc-gimp-pulls]: https://badgen.net/docker/pulls/accetto/xubuntu-vnc-gimp?icon=docker&label=pulls
+
+[badge-docker-xubuntu-vnc-gimp-stars]: https://badgen.net/docker/stars/accetto/xubuntu-vnc-gimp?icon=docker&label=stars
+
+<!-- docker badges xubuntu-vnc-drawio -->
+
+[badge-docker-xubuntu-vnc-drawio-pulls]: https://badgen.net/docker/pulls/accetto/xubuntu-vnc-drawio?icon=docker&label=pulls
+
+[badge-docker-xubuntu-vnc-drawio-stars]: https://badgen.net/docker/stars/accetto/xubuntu-vnc-drawio?icon=docker&label=stars
 
 <!-- docker badges xubuntu-vnc-novnc -->
 
