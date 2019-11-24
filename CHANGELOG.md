@@ -6,6 +6,13 @@
 
 ***
 
+### Version 19.11.1
+
+- dockerhub-dashboard updated
+  - `xubuntu-vnc-inkscape-gimp` removed
+  - `xubuntu-vnc-gimp` added
+  - `xubuntu-vnc-drawio` added
+
 ### Version 19.11
 
 - dockerhub-dashboard updated
