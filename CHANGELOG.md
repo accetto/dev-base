@@ -6,9 +6,14 @@
 
 ***
 
+### Version 20.12
+
+- **dockerhub-dashboard** removed
+  - it's a separate project [accetto/dashboard][github-accetto-dashboard] now
+
 ### Version 19.11.1
 
-- dockerhub-dashboard updated
+- **dockerhub-dashboard** updated
   - `xubuntu-vnc-inkscape-gimp` removed
   - `xubuntu-vnc-gimp` added
   - `xubuntu-vnc-drawio` added
@@ -91,3 +96,5 @@
 
 [this-docker-alpine]: https://hub.docker.com/r/accetto/dev-base-alpine
 [this-docker-ubuntu]: https://hub.docker.com/r/accetto/dev-base-ubuntu
+
+[github-accetto-dashboard]: https://github.com/accetto/dashboard
