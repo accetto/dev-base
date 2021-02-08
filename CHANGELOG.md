@@ -6,6 +6,11 @@
 
 ***
 
+### Version 21.02
+
+- archive version specific tags not pushed any more
+- version stickers updated
+
 ### Version 20.12
 
 - **dockerhub-dashboard** removed
